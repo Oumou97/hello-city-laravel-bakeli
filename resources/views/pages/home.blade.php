@@ -1,9 +1,8 @@
 @extends('app')
 
-@section('title',env('APP_NAME'))
-
-
 @section('content')
+    <img src="/images/drapeauSn.jpg" alt="Drapeau Sénégal">
+
     <h1>Hello from Dakar!</h1>
 
     <p>It's currently {{ date('h:i A') }}.</p>
