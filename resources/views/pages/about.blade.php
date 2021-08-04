@@ -4,7 +4,7 @@
 @section('title', 'About Us | ' .config('app.name'))
 
 @section('content')
-    <img src="/images/logoBakeli.png" alt="Drapeau Sénégal">
+    <img src="{{ asset('images/logoBakeli.png') }}" alt="Logo Bakeli">
 
     <p>Built with &hearts; by LES TEACHERS DU NET.</p>
 

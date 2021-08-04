@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('content')
-    <img src="/images/drapeauSn.jpg" alt="Drapeau Sénégal">
+    <img src="{{ asset('images/drapeauSn.jpg') }}" alt="Drapeau Sénégal">
 
     <h1>Hello from Dakar!</h1>
 
